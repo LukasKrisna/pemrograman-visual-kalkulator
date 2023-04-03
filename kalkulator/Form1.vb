@@ -2,11 +2,6 @@
     Dim num1, num2 As Double
     Dim op, timpa
 
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If LabelHasil.Text = "0" Or timpa = True Then
             LabelHasil.Text = "1"
@@ -97,6 +92,12 @@
         End If
     End Sub
 
+    Private Sub ButtonKoma_Click(sender As Object, e As EventArgs) Handles ButtonKoma.Click
+        If InStr(LabelHasil.Text, ",") = 0 Then
+            LabelHasil.Text = LabelHasil.Text & ","
+        End If
+    End Sub
+
     Private Sub ButtonTambah_Click(sender As Object, e As EventArgs) Handles ButtonTambah.Click
         timpa = True
         op = "+"
@@ -137,5 +138,11 @@
                 timpa = True
         End Select
 
+    End Sub
+
+    Private Sub ButtonHapus_Click(sender As Object, e As EventArgs) Handles ButtonHapus.Click
+        LabelHasil.Text = "0"
+        num1 = 0
+        op = ""
     End Sub
 End Class

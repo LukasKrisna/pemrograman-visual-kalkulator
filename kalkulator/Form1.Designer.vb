@@ -41,6 +41,7 @@ Partial Class Form1
         ButtonHapus = New Button()
         LabelHasil = New Label()
         ButtonPlus_Min = New Button()
+        ButtonBackspace = New Button()
         SuspendLayout()
         ' 
         ' Button1
@@ -208,7 +209,7 @@ Partial Class Form1
         ButtonHapus.Font = New Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point)
         ButtonHapus.Location = New Point(10, 54)
         ButtonHapus.Name = "ButtonHapus"
-        ButtonHapus.Size = New Size(276, 58)
+        ButtonHapus.Size = New Size(182, 58)
         ButtonHapus.TabIndex = 16
         ButtonHapus.Text = "C"
         ButtonHapus.UseVisualStyleBackColor = True
@@ -233,11 +234,22 @@ Partial Class Form1
         ButtonPlus_Min.Text = "+/-"
         ButtonPlus_Min.UseVisualStyleBackColor = True
         ' 
+        ' ButtonBackspace
+        ' 
+        ButtonBackspace.Font = New Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point)
+        ButtonBackspace.Location = New Point(198, 54)
+        ButtonBackspace.Name = "ButtonBackspace"
+        ButtonBackspace.Size = New Size(88, 58)
+        ButtonBackspace.TabIndex = 19
+        ButtonBackspace.Text = "Del"
+        ButtonBackspace.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(406, 376)
+        Controls.Add(ButtonBackspace)
         Controls.Add(ButtonPlus_Min)
         Controls.Add(LabelHasil)
         Controls.Add(ButtonHapus)
@@ -282,4 +294,5 @@ Partial Class Form1
     Friend WithEvents ButtonHapus As Button
     Friend WithEvents LabelHasil As Label
     Friend WithEvents ButtonPlus_Min As Button
+    Friend WithEvents ButtonBackspace As Button
 End Class
