@@ -1,0 +1,17 @@
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\bin\Debug\net7.0-windows\kalkulator.exe
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\bin\Debug\net7.0-windows\kalkulator.deps.json
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\bin\Debug\net7.0-windows\kalkulator.runtimeconfig.json
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\bin\Debug\net7.0-windows\kalkulator.dll
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\bin\Debug\net7.0-windows\kalkulator.pdb
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.vbproj.AssemblyReference.cache
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.Form1.resources
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.vbproj.GenerateResource.cache
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.AssemblyInfoInputs.cache
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.AssemblyInfo.vb
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.vbproj.CoreCompileInputs.cache
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.dll
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\refint\kalkulator.dll
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.pdb
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\kalkulator.genruntimeconfig.cache
+C:\Lookas\STIKOM\SEMESTER 2\Pemrograman Visual\kalkulator\kalkulator\obj\Debug\net7.0-windows\ref\kalkulator.dll
