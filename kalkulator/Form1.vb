@@ -155,4 +155,14 @@ Public Class Form1
             LabelHasil.Text = LabelHasil.Text.Substring(0, textLength - 1)
         End If
     End Sub
+
+    Private Sub ButtonPlus_Min_Click(sender As Object, e As EventArgs) Handles ButtonPlus_Min.Click
+        If Not LabelHasil.Text = "0" Then
+            If LabelHasil.Text.StartsWith("-") Then
+                LabelHasil.Text = LabelHasil.Text.Substring(1)
+            Else
+                LabelHasil.Text = "-" & LabelHasil.Text
+            End If
+        End If
+    End Sub
 End Class
