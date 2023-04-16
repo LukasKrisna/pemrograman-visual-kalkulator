@@ -1,4 +1,7 @@
-﻿Public Class Form1
+﻿Imports System.Reflection.Emit
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+
+Public Class Form1
     Dim num1, num2 As Double
     Dim op, timpa
 
@@ -144,5 +147,12 @@
         LabelHasil.Text = "0"
         num1 = 0
         op = ""
+    End Sub
+
+    Private Sub ButtonBackspace_Click(sender As Object, e As EventArgs) Handles ButtonBackspace.Click
+        Dim textLength As Integer = LabelHasil.Text.Length
+        If textLength > 0 Then
+            LabelHasil.Text = LabelHasil.Text.Substring(0, textLength - 1)
+        End If
     End Sub
 End Class
